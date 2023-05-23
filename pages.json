@@ -1,0 +1,102 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "茶叶种类识别"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+		}
+	    ,{
+            "path" : "pages/camera/camera",
+            "style" :{
+                "navigationBarTitleText": "相机"
+            }
+            
+        },
+		{
+			"path" : "pages/setting/setting",
+			"style" :{
+			    "navigationBarTitleText": "设置"
+			}
+		}
+        ,{
+            "path" : "pages/result/result",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/record/record",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/feedback/feedback",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/review/review",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/feedbackreview/feedbackreview",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#55aaff"
+	},
+	
+	"tabBar": {
+	    "color": "#868686",
+	    "selectedColor": "#007e00",
+	    "borderStyle": "black",
+	    "backgroundColor": "#F8F8F8",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/home.png",
+	        "selectedIconPath": "static/home.png",
+	        "text": "首页"
+	    },{
+	        "pagePath": "pages/my/my",
+			"iconPath": "static/my.png",
+			"selectedIconPath": "static/my.png",
+	        "text": "我"
+	    }]
+	}
+}

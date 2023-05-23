@@ -1,0 +1,1 @@
+<view class="container"><image class="bg-set" src="../../static/bg_.jpg"></image><view class="content"><image class="search_ico" src="../../static/search_transparent.png" data-event-opts="{{[['tap',[['route2camera']]]]}}" bindtap="__e"></image></view></view>
