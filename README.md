@@ -1,6 +1,6 @@
 # Tea Classification WeChat Mini Program
 
-[中文](https://github.com/songqikong/Tea-Classify-wxminiprogram/README_CN.md)
+[中文](https://github.com/songqikong/Tea-Classify-wxminiprogram/blob/main/README_CN.md)
 
 This project is a WeChat mini program for classifying tea leaves, divided into three main components:
 
