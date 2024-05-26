@@ -1,0 +1,4 @@
+python==3.9.7
+flask==2.1.1
+torch==1.11.0
+torchvision==1.12.0
